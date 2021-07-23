@@ -1,0 +1,132 @@
+.blogContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.left {
+  width: 200px;
+}
+.right {
+  width: 800px;
+  text-align: justify;
+}
+.blog1 {
+  width: 800px;
+  height: 400px;
+}
+.blogHeading {
+  color: #ffad5a;;
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30px;
+  margin-top: 2%;
+}
+.blog_title {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 23px;
+}
+.blog_content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: justify;
+  color: black;
+}
+.blog_read_more {
+  font-family: Montserrat;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  height: 1.5rem;
+  // margin: 0 !important;
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  border-radius: 50%;
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+}
+.calendar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+.comment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+.post {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5%;
+  h5 {
+    color: blue;
+    font-weight: bolder;
+    font-family: Minion Pro;
+    line-height: 23px;
+    margin-bottom: 10%;
+  }
+}
+.category {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5%;
+  margin-top: 20%;
+
+  h5 {
+    color: blue;
+
+    font-weight: bolder;
+    font-family: Minion Pro;
+    line-height: 23px;
+    margin-bottom: 10%;
+  }
+}
+.categoris {
+  color: grey;
+  font-weight: 500;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+.breadcrumb {
+  background-color: transparent !important;
+  color: #ffffff;
+}

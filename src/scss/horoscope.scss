@@ -1,0 +1,62 @@
+.Horoscope{
+    background-color: #f9f8f8 !important;
+}
+.our_services_text{
+    color: #ffad5a !important;
+    position: relative;
+    bottom: 130px;
+}
+.horo-text{
+    color: black !important;
+}
+.Aries{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.AriesLeft{
+    width:60%;
+}
+.AriesRight{
+    width:20%;
+}
+.RightDiv{
+    background-color: white;
+    border-radius: 15px;
+}
+.AriesHead{
+    margin-top: 5%;
+}
+.AriesHeading{
+    text-align: center;
+      font-family: Minion Pro;
+      text-decoration: underline;
+  font-style: normal;
+  font-weight: normal;
+    color: #ffad5a;
+    margin-bottom: 5%;
+}
+.head{
+      font-family: Minion Pro;
+  font-style: normal;
+  font-weight: normal;
+    color: #ffad5a !important;
+    margin-bottom: 4%;
+}
+.AriesPara{
+    font-family: Hind,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+    background: 0 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+.btn{
+    margin-bottom: 2%;
+    width:140px;
+    margin-right: 2%;
+    height: 40px;
+}

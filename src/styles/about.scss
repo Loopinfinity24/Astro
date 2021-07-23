@@ -1,0 +1,78 @@
+.about {
+  width: 85%;
+  margin: 0 auto;
+  text-align: justify;
+  
+}.navtop-image{
+  background-image:url(../images/logo1.png);
+  background-size: cover;
+}
+.navtop{
+  background-color: white !important;
+  opacity: 1;
+}
+.phone{
+color: #eb7b0b;
+
+
+}.navtop-items{
+
+  height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .phone-text{
+    padding-left: 10px;
+    color: #eb7b0b ;
+  }
+  .btn-warning{
+    background-color: #eb7b0b !important;
+    border-radius: 25px !important;
+    color: white !important;
+    padding: 5px !important;
+  }
+.header_image {
+  background-image: url("../images/aboutus.jpg");
+//  background-size: 100% 200px;
+  line-height: 20;
+  background-repeat: no-repeat;
+  text-align: left;
+ // margin-bottom: 5%;
+}
+.header_text1 {
+  
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  //font-weight: bold;
+  font-size: 50px;
+  margin-left: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.text123 {
+  font-family: Owbeirak Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+p {
+  font-family: Owbeirak Serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #707175
+}
+h5 {
+  font-family: Owbeirak Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}

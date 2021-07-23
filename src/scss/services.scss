@@ -1,0 +1,241 @@
+.ServicesColumn1 {
+  background-image: url("../images/services/Astror.jpg");
+ 
+}
+#services{
+  background-color: #ffffff;
+  
+}
+.OurServices{
+  background-color: #ffffff !important;
+}
+.services-section{
+  display: flex;
+  
+}
+.sidebar{
+  width: 25%;
+}
+.sidebar-card{
+  width: 75%;
+}
+.service_text{
+  color: black !important;
+}
+.landrrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.productrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+.landrcolumn {
+  background-color: #ffffff;
+  padding: 2%;
+  border-radius: 5px;
+  height: 350px;
+  max-height: 400px;
+  p {
+    color: grey;
+     font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  }
+}
+.landrcolumn2 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2%;
+  height: 500px;
+  text-align: center;
+  max-height: 600px;
+  p {
+    color: grey;
+     font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  }
+}
+
+.header {
+  background-image: url("../images/aboutus.jpg");
+  height: 200px;
+  width: 100%;
+  background-size: 100% 200px;
+  // border: 2px solid red;
+  line-height: 200px;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.header_text {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  //font-weight: bold;
+  font-size: 50px;
+  margin-left: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.header_text2 {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  //font-weight: bold;
+  font-size: 25px;
+  margin-left: 50px;
+  color: #ffffff;
+  
+  margin-bottom: 100px;
+}
+
+
+.bread {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff !important;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+.product1 {
+  background-color: #ffffff;
+  padding: 2%;
+  border-radius: 5px;
+  height: 350px;
+  max-height: 400px;
+  width: 300px;
+  p {
+     color: grey;
+     font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  }
+}
+.product2 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2%;
+  height: 500px;
+  max-height: 600px;
+  width: 300px;
+  p {
+    color: grey;
+     font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  }
+}
+.product_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.landrcolumn4 {
+  width: 700px;
+  p {
+    text-align: justify;
+  }
+
+  .Product_heading {
+    color: #ebc596;
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 20px;
+  }
+  .Product_money {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .Product_submoney {
+    color: #ebc596;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 32px;
+  }
+  .product_content {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  // .product1 {
+  //   width: 100%;
+  //   margin: 0 auto;
+  // }{
+
+  .landrcolumn4 {
+    width: 90%;
+  }
+  .product_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+  }
+  .landrrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .landrcolumn1 {
+    width: 90%;
+  }
+  .landrcolumn {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .landrcolumn2 {
+    width: 90%;
+    text-align: center;
+  }
+  .bread {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff !important;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 22px;
+  }
+}

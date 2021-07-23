@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+
+.collection_text {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.collection_text1 {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #0000;
+}
+.view_collection_text {
+  font-family: Minion Pro;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: black;
+  // background-color: #ffad5a;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  border: none;
+}
+.buy-now-btn{
+  position: relative;
+  bottom: 120px;
+}
+.service_text {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  color: #0000;
+}
+.our_services_text {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 50;
+  font-size: 24px;
+  line-height: 0px;
+  color: white;
+  text-align: center;
+}
+.text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 2%;
+  color: #000000;
+}
+.text1 {
+  font-family: Hind,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+    text-align: center;
+}
+.menu_text {
+  text-decoration: none;
+  margin-right: 60px;
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f3e900;
+}
+.Item:hover{
+  color: brown !important;
+  background-color: #ffad5a;
+}
+.logo_text {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f3e900;
+}
+.search_text {
+  margin-right: 15px;
+}
+.sale_text {
+  font-family: Dosis,sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.offer_text {
+  font-family:Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.offer_text1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9c7c7c;
+  text-align: center;
+}
+.client1_name {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.client1_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 10px;
+  color: #ffffff;
+}
+.client1_desc {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  margin-top: 20px;
+}
+.date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color:#0000;
+  margin-top: 20px;
+}
+.see_all {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 30px;
+}
+.addTestmonial {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  margin-top: 30px;
+  color: #000000;
+}
+.text2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+.expert_name {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #fff;
+}
+.professional_name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+.expert_text {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 32px;
+  color: #000000;
+  text-align: left;
+}
+
+
+.footer_heading {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 10px;
+
+  color: #ffffff;
+}
+.footer_para {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 12px;
+  color: #b7b4b4;
+}
+.see_all1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 5%;
+  color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+  .menu_text {
+    text-decoration: none;
+    // margin-right: 20px;
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #f3e900;
+    align-self: flex-start;
+  }
+  .client1_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 10px;
+    color: #000000;
+  }
+  .client1_name {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .search_text {
+    margin-right: 15px;
+  }
+  .collection_text {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10%;
+
+    color: #ffad5a;
+  }
+  .collection_text1 {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10%;
+
+    color: #ffffff;
+  }
+  .view_collection_text {
+    font-family: Minion Pro;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: blue;
+    background-color: #ffad5a;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border: none;
+  }
+  .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 2%;
+    color: #ffffff;
+  }
+  .text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 5%;
+
+    color: #ffffff;
+  }
+  .footer_heading {
+    margin-top: 10%;
+  }
+  .see_all {
+    text-align: end;
+  }
+  .our_services_text1 {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .see_all1 {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .service_text {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: #ffffff;
+  }
+  .menu_text {
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #f3e900;
+    align-self: flex-start;
+  }
+  .search_text {
+    margin-right: 15px;
+  }
+  .collection_text {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10%;
+
+    color: #ffad5a;
+  }
+  .collection_text {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10%;
+
+    color: #fff;
+  }
+  .view_collection_text {
+    font-family: Minion Pro;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    color: #fff;
+    background-color: #ffad5a;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border: none;
+  }
+  .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 2%;
+
+    color: #ffffff;
+  }
+  .text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 5%;
+
+    color: #ffffff;
+  }
+  .footer_heading {
+    margin-top: 10%;
+  }
+  .see_all {
+    text-align: center;
+  }
+  .addTestmonial {
+    text-align: center;
+  }
+  .our_services_text1 {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .see_all1 {
+    margin-top: 5%;
+  }
+}

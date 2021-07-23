@@ -1,0 +1,346 @@
+%contactus {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.address {
+  @extend %contactus;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.phone {
+  @extend %contactus;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.email {
+  @extend %contactus;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.contact1 {
+  @extend %contactus;
+  flex-direction: row;
+  justify-content: center;
+
+  // width:400px;
+  // height:400px;
+}
+.contact2 {
+  @extend %contactus;
+  flex-direction: row;
+  justify-content: center;
+  // background-color: #fff;
+  // width:400px;
+  // height:400px;
+}
+.contact3 {
+  @extend %contactus;
+  flex-direction: row;
+  justify-content: center;
+  // background-color: rgb(184, 178, 178);
+  // width:400px;
+  // height:400px;
+}
+.contact4 {
+  @extend %contactus;
+  flex-direction: row;
+  justify-content: center;
+  // background-color: #fff;
+  // width:400px;
+  // height:400px;
+}
+.office1 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.office2 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.office3 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.office4 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.office5 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.office6 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.office7 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.office8 {
+  width: 35%;
+  height: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+h2 {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  // font-size: 4px;
+  // line-height: 24px;
+  /* identical to box height */
+
+  // text-align: center;
+
+  color: black;
+}
+p {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 19px;
+  color: black;
+}
+.heading {
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  align-content: center;
+  margin-left: 20px;
+  color: #eb7b0b;
+}
+.office-heading{
+  color: #eb7b0b;
+}
+.para {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  margin-left: 20px;
+
+  color: #5a5a5b;
+}
+.img {
+  background-image: url("../images/contact.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: 100% 250px;
+  border: 2px solid red;
+  line-height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  //   back
+}
+.con {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family: Minion Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.map {
+  margin: 0 auto;
+}
+.map_location {
+  width: 100%;
+  height: 350px;
+}
+
+@media screen and (max-width: 468px) {
+  .contact1 {
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .contact2 {
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .contact3 {
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .contact4 {
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .office1 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+  }
+  .office2 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+    margin-top: 5%;
+  }
+  .office3 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+  }
+  .office4 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+    margin-top: 5%;
+  }
+  .office5 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+  }
+  .office6 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+    margin-top: 5%;
+  }
+  .office7 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+  }
+  .office8 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+    margin-top: 5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .office1 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .office2 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .office3 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .office4 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .office5 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .office6 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .office7 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .office8 {
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+}
