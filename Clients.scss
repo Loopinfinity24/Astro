@@ -1,0 +1,29 @@
+
+
+.client-container{
+    background-color: #f59042;
+    
+}
+.client-card{
+    height: auto;
+    width: 70%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.client-img{
+  width: 50%;
+  margin-left: auto;
+    
+}
+.client-heading
+{
+    font-size: 35px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.client-text{
+    background-color: #f59042;
+    text-decoration: none !important;
+}

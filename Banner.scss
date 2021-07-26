@@ -1,0 +1,50 @@
+
+.slick-slider {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.banner{
+     background: linear-gradient(to bottom,rgba(54, 2, 5, 0.685), rgba(13, 13, 14, 0.2)), url("../images/garnet-gemstone.jpg") ;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    height: auto;
+   
+    width: 100%;
+    
+}
+.banner-colum-1{
+   
+}
+.gemstone{
+    font-size: 55px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.horz-line{
+    border: 4px dashed #ff0000;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+    width: 25%;
+}
+.gemstone-text{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-outline-success{
+  text-transform: uppercase;
+ border: 1px solid #fff;
+
+}
+.card-bg{
+    
+    opacity: 0.92;
+    
+    
+}
